@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+    #navigation img {
+        position: relative;
+        top: -60px;
+        border-radius: 50%;
+        border : 10px solid white;
+        width: 150px;
+    }
+
+    #about-1, #about-2 {
+        display: flex;
+        flex-direction: column;   
+    }
+    #about-2 h3 {
+        padding-left: 5rem;
+    }
+    #about-2 ul, #about-2 div {
+        padding-left: 2rem;
+    }
+
+    #about-1 {
+        align-items: flex-end;
+    }
+    #about-1 h3 {
+        padding-right: 5rem;
+    }
+    #about-1 p {
+        padding-right: 2rem;
+        padding-left: 5rem;
+        padding-left: 40%
+    }
+
+    #job-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .reward {
+        flex-direction: row;
+    }
+
+}

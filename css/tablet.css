@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    #navigation a{
+        height : 50px;
+        padding: 10px 10px 0 10px;
+    }
+
+    #about-2 ul {
+        padding-left: 2rem;
+    }
+    #about-1 p, #about-1 h3, #about-2 h3 {
+        padding-left: 2rem;
+    }
+
+    #job-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+
+    #certificate > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .reward {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px orange;
+        margin-top: 10px;
+    }
+    .special {
+        padding-bottom: 10px;
+        border-left: solid 1px orange;
+    }
+}

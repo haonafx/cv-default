@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    #navigation nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #navigation a {
+        padding: 10px;
+    }
+
+    #about-1 p, #about-1 h3, #about-2 h3 {
+        padding-left: 2rem;
+    }
+    #about-1 p {
+        padding-right: 2rem;
+    }
+
+    #job-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+
+    .reward {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border-bottom : solid 1px orange;
+        margin-top: 10px;
+    }
+
+    #project > .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 30px;
+        padding: 50px;
+    }
+    
+    #footer ul {
+        padding-left: 0;
+    }
+}
