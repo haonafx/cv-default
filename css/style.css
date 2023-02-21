@@ -1,6 +1,6 @@
 #banner {
     background-color: grey;
-    background-image: url(https://github.com/haonafx/cv-default/blob/main/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-position-x: center;
     height : 500px;
     background-repeat: no-repeat;
